@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GraduationCap, ShieldCheck, Heart, Sparkles, ExternalLink } from 'lucide-react';
+import { GraduationCap, ShieldCheck, Sparkles, ExternalLink } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -125,11 +125,6 @@ export const Footer: React.FC = () => {
 
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} Scholar-Track. Built for college project demonstration.</p>
-          <div className="flex items-center gap-1 text-slate-400">
-            <span>Crafted with</span>
-            <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-            <span>using React, Vite, Node.js & MongoDB</span>
-          </div>
         </div>
       </div>
     </footer>
